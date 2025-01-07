@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
-    
-</head>
-<body>
-    <p>Wenn du nicht automatisch weitergeleitet wirst, <a href="/555/">klicke hier</a>.</p>
-</body>
-</html>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,14 +10,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
     <!-- Automatische Weiterleitung nach 3 Sekunden -->
-    <meta http-equiv="refresh" content="0; URL=/555/">
+    <meta http-equiv="refresh" content="3; URL=/555/">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <p>Wenn du nicht automatisch weitergeleitet wirst, <a href="/555/">klicke hier</a>.</p>
+    <p>Du wirst in wenigen Sekunden automatisch weitergeleitet...</p>
+    <p>Wenn nichts passiert, <a href="/555/">klicke hier</a>.</p>
 </body>
 </html>
-
-
-
-
 
